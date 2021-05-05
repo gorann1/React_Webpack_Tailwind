@@ -35,7 +35,8 @@ module.exports = {
     "array-callback-return": "error",
     "consistent-return": "error",
     "babel/no-invalid-this": "error",
-    "no-unused-vars": ["error", { argsIgnorePattern: "^_" }],
+    "react/jsx-uses-vars": "error",
+    'no-unused-vars': 0
   },
   settings: {
     react: {
